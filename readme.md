@@ -14,7 +14,6 @@ Generate high-quality images and 3D models from simple text descriptions using A
 
    ```bash
    ollama pull llama3:latest
-````
 
 2. **Start Ollama Service**
 
@@ -36,6 +35,8 @@ Generate high-quality images and 3D models from simple text descriptions using A
 
    # Install dependencies
    pip install -r requirements.txt
+   pip uninstall -y python-magic
+   pip install python-magic-bin==0.4.14
    ```
 
 4. **Launch the App**
@@ -138,6 +139,7 @@ Stored using SQLite:
 2. The system generates an image based on an AI-enhanced prompt.
 3. Convert the generated image into a 3D model.
 4. Use the sidebar to access past generations and search through them.
+'Create a glowing dragon standing on a cliff at sunset'
 
 ---
 
