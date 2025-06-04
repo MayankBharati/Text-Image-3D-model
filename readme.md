@@ -145,7 +145,7 @@ Stored using SQLite:
 
 ##  Interface Snapshot
 
-![App Interface](outputs\images\generated_20250604_194953.png)
+![App Interface](screenshot.png)
 
 ---
 
