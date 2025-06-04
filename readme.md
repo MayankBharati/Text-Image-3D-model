@@ -14,7 +14,6 @@ Generate high-quality images and 3D models from simple text descriptions using A
 
    ```bash
    ollama pull llama3:latest
-````
 
 2. **Start Ollama Service**
 
